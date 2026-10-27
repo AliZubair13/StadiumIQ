@@ -1,0 +1,15 @@
+# Generated, reproducible via `python -m src.bootstrap`
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
