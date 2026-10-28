@@ -10,6 +10,31 @@ and analyzes a marketing A/B test. The models are evaluated with leakage-safe, c
 
 ---
 
+## Screenshots
+
+All screenshots show synthetic data, as of the simulation date Oct 18, 2025.
+A 70-second recorded walkthrough is in [`screenshots/stadiumiq_walkthrough.mp4`](screenshots/stadiumiq_walkthrough.mp4).
+
+### Home
+![Home page with season KPIs and headline model results](screenshots/1_home.png)
+
+### Sales Overview
+![Sales Overview with KPIs, daily and cumulative sales, sell-through by game, pace comparison and upcoming games](screenshots/2_sales_overview.png)
+
+### 7-Day Forecast
+![7-Day Forecast chart comparing XGBoost and baseline forecasts, with forecast table and model evaluation](screenshots/3_forecast.png)
+
+### Fan Propensity
+![Fan Propensity page with ranked outreach list, score distribution and model comparison](screenshots/4_propensity.png)
+
+### Recommendations
+![Recommendations page with prioritized actions and the seven-day checkpoint derivation](screenshots/5_recommendations.png)
+
+### A/B Experiment
+![A/B Experiment page with conversion rates, confidence interval, SRM check and interpretation](screenshots/6_experiment.png)
+
+---
+
 ## 1. Business problem and intended users
 
 **Users:** ticket operations analysts, the marketing and CRM team, and the revenue manager.
